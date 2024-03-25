@@ -16,6 +16,7 @@
         @endforeach
     </div>
       @endforeach
+      <a href="{{ route('comics.create') }}"> Inserisci nuovo fumetto </a>
     </div>
   </section>
 @endsection
