@@ -11,6 +11,7 @@
             <div class="col-2">
                 <img class="img-fluid poster" src="{{ $comic['url'] }}" alt="">
                 <h2>{{ $comic['series'] }}</h2>
+                <a href="{{ route('comics.show', $comic) }}"> Dettaglio </a>
             </div>
         @endforeach
     </div>
