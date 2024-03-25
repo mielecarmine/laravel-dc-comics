@@ -7,11 +7,11 @@
     <form action="{{ route('comics.store') }}" method="POST">
         @csrf
     
-        <label for="name" class="form-label">Titolo</label>
-        <input type="text" class="form-control" id="name" name="name" />
+        <label for="title" class="form-label">Titolo</label>
+        <input type="text" class="form-control" id="title" title="title" />
     
-        <label for="number" class="form-label">Descrizione</label>
-        <input type="text" class="form-control" id="number" name="number" />
+        <label for="descrizione" class="form-label">Descrizione</label>
+        <input type="text" class="form-control" id="descrizione" name="descrizione" />
     
         <label for="img" class="form-label">Link all'immagine</label>
         <input type="url" class="form-control" id="img" name="img">
